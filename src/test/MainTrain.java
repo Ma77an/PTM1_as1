@@ -19,8 +19,12 @@ public class MainTrain {
 		} catch (NoSuchFieldException | SecurityException e) {
 			System.out.println("BinaryExpression does not have correct fields (-10)"); // -10
 		}
-		
+
+		System.out.println(Q2.calc());
+
 		System.out.println("done");
+
+
 	}
 
 }
