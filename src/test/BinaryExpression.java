@@ -8,6 +8,6 @@ public abstract class BinaryExpression implements Expression {
         this.right = right;
     }
 
-    @Override
-    public abstract double calculate();
+//    @Override
+//    public abstract double calculate();
 }

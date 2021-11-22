@@ -6,6 +6,6 @@ public class Plus extends BinaryExpression{
     }
     @Override
     public double calculate() {
-        return left.calculate() + right.calculate();
+        return this.left.calculate() + this.right.calculate();
     }
 }
